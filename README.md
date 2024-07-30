@@ -21,3 +21,9 @@ Para ejecutar este proyecto en tu máquina local, necesitarás tener instalado:
 - [Visual Studio](https://visualstudio.microsoft.com/vs/) o [Visual Studio Code](https://code.visualstudio.com/)
 - Un gestor de base de datos (SQL Server, MySQL, etc.)
 - Git
+
+## Paquetes NuGet Utilizados
+- **Microsoft.Data.SqlClient**: Proveedor de cliente SQL para conectarse y trabajar con bases de datos SQL Server.
+- **Dapper**: Micro ORM para trabajar con bases de datos de manera más eficiente y con mejor rendimiento.
+- **AutoMapper.Extensions.Microsoft.DependencyInjection**: Integración de AutoMapper con el contenedor de inyección de dependencias de Microsoft, facilitando la configuración y uso de AutoMapper en aplicaciones ASP.NET Core.
+- **ClosedXML**: Biblioteca para trabajar con archivos Excel (XLSX) de manera fácil y eficiente.
