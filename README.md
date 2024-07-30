@@ -35,5 +35,5 @@ Para restaurar la base de datos desde el script SQL:
 1. Abre SQL Server Management Studio (SSMS).
 2. Conéctate a tu instancia de SQL Server.
 3. Abre un nuevo query.
-4. Copia y pega el contenido del archivo `nombre-archivo.sql`.
+4. Copia y pega el contenido del archivo `script.sql`.
 5. Ejecuta el script para crear la base de datos y poblarla con los datos.
