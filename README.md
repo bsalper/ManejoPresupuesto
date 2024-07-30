@@ -17,6 +17,7 @@ Este proyecto tiene como objetivo desarrollar una aplicación web para el manejo
 
 ## Requisitos Previos
 Para ejecutar este proyecto en tu máquina local, necesitarás tener instalado:
+
 - [.NET Core SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio](https://visualstudio.microsoft.com/vs/) o [Visual Studio Code](https://code.visualstudio.com/)
 - Un gestor de base de datos (SQL Server, MySQL, etc.)
@@ -27,3 +28,12 @@ Para ejecutar este proyecto en tu máquina local, necesitarás tener instalado:
 - **Dapper**: Micro ORM para trabajar con bases de datos de manera más eficiente y con mejor rendimiento.
 - **AutoMapper.Extensions.Microsoft.DependencyInjection**: Integración de AutoMapper con el contenedor de inyección de dependencias de Microsoft, facilitando la configuración y uso de AutoMapper en aplicaciones ASP.NET Core.
 - **ClosedXML**: Biblioteca para trabajar con archivos Excel (XLSX) de manera fácil y eficiente.
+
+## Restaurar la Base de Datos
+Para restaurar la base de datos desde el script SQL:
+
+1. Abre SQL Server Management Studio (SSMS).
+2. Conéctate a tu instancia de SQL Server.
+3. Abre un nuevo query.
+4. Copia y pega el contenido del archivo `nombre-archivo.sql`.
+5. Ejecuta el script para crear la base de datos y poblarla con los datos.
